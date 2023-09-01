@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Match</title>
+</head>
+<body onload="gapn()">
+   <h3 id="player_name1"></h3> <span><b>0</b></span>
+   <br>
+   <h3 id="player_name2"></h3> <span><b>0</b></span>
+   <center>
+    <h1>Math game</h1>
+    <h3 id="Question">Question turn-<span id="player_name11"></span></h3>
+    <h3 id="Answer">Answer turn-<span id="player_name22"></span></h3>
+    <div id="output"></div>
+    <br>
+    <br>
+    <br>
+    <section id="Question_screen">   
+    <center>
+        <h3>Number 1</h3>
+        <input type="number" placeholder="Number here" id="num1" style="font-size: 20px;">
+        <h3>Number 2</h3>
+        <input type="number" placeholder="Number here" id="num2" style="font-size: 20px;">
+        <br>
+        <br>
+        <button onclick="send();" id="Submit" style="color: white; background-color:crimson; font-size: 20px;">Submit</button>
+        <br>
+        <br>
+    </center>
+    </section>
+   </center>
+   <script src="main1.js"></script>
+</body>
+</html>

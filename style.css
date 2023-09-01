@@ -1,0 +1,47 @@
+#player_1,#player_2{
+    background-color: gold;
+    border-style:ridge;
+    border-width:5px;
+    border-radius: 15px;
+    border-color:black;
+    color: white;
+    width:700px;
+    height:175px;
+}
+
+body{
+    font-family: impact;
+    background-color: greenyellow;
+}
+
+.hr{
+    color: blue;
+}
+
+img{
+    width:150px;
+    height:75px;
+}
+
+#player_name1,#player_name2{
+	display: inline-block;
+	margin-left: 10px;
+    margin-right: 5px;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#Question_screen{
+    background-color: white;
+    border-top: 10px solid #AA4465;
+    border-radius: 10px;
+    width: 500px;
+}
